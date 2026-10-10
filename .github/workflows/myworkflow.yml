@@ -3,7 +3,7 @@
 name: First test CI
 run-name: "${{github.actor}} run this workflow"
 env:
-  GITHUB_ACTIONS: ${{github.action}}
+  GITHUB_ACTIONS: "111222"
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
